@@ -1,11 +1,15 @@
-import React from 'react'
+import Layout from '@/components/layout'
+
 
 type Props = {}
 
 const MyPhotos = (props: Props) => {
   return (
-    <div>MyPhotos</div>
+    <Layout>
+      <div>My Photos</div>
+    </Layout>
   )
 }
 
 export default MyPhotos
+
